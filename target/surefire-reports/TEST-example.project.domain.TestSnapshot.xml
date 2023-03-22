@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="example.project.domain.TestSnapshot" time="0.013" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="example.project.domain.TestSnapshot" time="0.007" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/jorge/projects/software-reengineering/lab7/testing-for-reengineering-jorgetaylor99/target/surefire/surefirebooter6807212268609537622.jar /Users/jorge/projects/software-reengineering/lab7/testing-for-reengineering-jorgetaylor99/target/surefire 2023-03-22T13-31-28_379-jvmRun1 surefire9778362645295717215tmp surefire_08702570321679708207tmp"/>
+    <property name="sun.java.command" value="/Users/jorge/projects/software-reengineering/lab7/testing-for-reengineering-jorgetaylor99/target/surefire/surefirebooter9465044911935044000.jar /Users/jorge/projects/software-reengineering/lab7/testing-for-reengineering-jorgetaylor99/target/surefire 2023-03-22T13-32-17_643-jvmRun1 surefire11373218141306513480tmp surefire_09801862764757630591tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/jorge/projects/software-reengineering/lab7/testing-for-reengineering-jorgetaylor99/target/test-classes:/Users/jorge/projects/software-reengineering/lab7/testing-for-reengineering-jorgetaylor99/target/classes:/Users/jorge/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar:/Users/jorge/.m2/repository/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar:/Users/jorge/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/jorge/.m2/repository/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar:/Users/jorge/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar:/Users/jorge/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/jorge/.m2/repository/org/mockito/mockito-core/5.2.0/mockito-core-5.2.0.jar:/Users/jorge/.m2/repository/net/bytebuddy/byte-buddy/1.14.1/byte-buddy-1.14.1.jar:/Users/jorge/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.1/byte-buddy-agent-1.14.1.jar:/Users/jorge/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/jorge/.m2/repository/org/mockito/mockito-junit-jupiter/5.2.0/mockito-junit-jupiter-5.2.0.jar:"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/jorge/projects/software-reengineering/lab7/testing-for-reengineering-jorgetaylor99/target/surefire/surefirebooter6807212268609537622.jar"/>
+    <property name="surefire.real.class.path" value="/Users/jorge/projects/software-reengineering/lab7/testing-for-reengineering-jorgetaylor99/target/surefire/surefirebooter9465044911935044000.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="14.0.2+12-46"/>
@@ -53,6 +53,6 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="testEqualitySimple" classname="example.project.domain.TestSnapshot" time="0.001"/>
-  <testcase name="testEquality" classname="example.project.domain.TestSnapshot" time="0.001"/>
+  <testcase name="testEqualitySimple" classname="example.project.domain.TestSnapshot" time="0.002"/>
+  <testcase name="testEquality" classname="example.project.domain.TestSnapshot" time="0"/>
 </testsuite>
