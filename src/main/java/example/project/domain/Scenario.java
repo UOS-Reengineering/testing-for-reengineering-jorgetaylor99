@@ -25,4 +25,23 @@ public class Scenario {
         // parse scenarioDescription and save the result to the class attributes
         // not implemented
     }
+
+    public boolean calculateDistance(List<Float> pos1, List<Float> pos2) {
+        if (Math.sqrt(Math.pow(pos1.get(0) - pos2.get(0), 2) + Math.pow(pos1.get(1) - pos2.get(1), 2)) < 0.05)
+            return true;
+        else
+            return false;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null)
+            return false;
+
+        Scenario scenario = (Scenario) obj;
+        return roadType.equals(scenario.roadType)
+                && weatherCondition.equals(scenario.weatherCondition)
+                && calculateDistance(initEgoCarPos, scenario.initEgoCarPos)
+                && calculateDistance(initCarInFrontPos, scenario.initCarInFrontPos);
+    }
 }
